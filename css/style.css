@@ -1,0 +1,402 @@
+head, body{
+    max-width: 100%;
+    max-height: 100%;
+    background-color: rgb(1, 1, 38);
+}
+.backimg{
+    position: absolute;
+    top: -10px;
+    width : 100%;
+
+}
+.language{
+    max-width: 1264px;
+    max-height: 86px;
+    margin: 0 auto;
+    opacity: 100%;
+    padding-top: 30px;
+}
+.language img{
+    position: relative;
+    width: 148px;
+    margin-left: 16px;
+}
+.sel-login{
+    float: right;
+}
+.sel-login select{
+    position: relative;
+    float: right;
+    background-color: #000;
+    color: #fff;
+    right: 160px;
+    width: 126px;
+    height: 32px;
+    border-radius: 5px;
+}
+.sel-login .login{
+    width: 74px;
+    height: 32px;
+    border-radius: 3px;
+    background-color: red;
+    color: #fff;
+    position: absolute;
+}
+.sel-login .login:hover{
+    background-color: rgb(182, 0, 0);
+}
+.login span{
+    cursor: pointer;
+    position: relative;
+    top: 7px;
+    font-size: 17px;
+    padding-left: 16px;
+}
+.login span a{
+    color: #fff;
+    text-decoration: none;
+}
+.main-text{
+    max-width: 1344px;
+    max-height: 455px;
+}
+.text-box{
+    margin-top: -16px;
+    padding-top: 94px;
+    padding-left: 153px;
+    padding-right: 153px;
+    color: #fff;
+    position: relative;
+}
+.text-box h1{
+    font-size: 70px;
+    margin-bottom: 13px;
+}
+.text-box h4{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 50px;
+}
+.text-box span{
+    font-weight: 500;
+    font-size: 23px;
+}
+.mt-box{
+    margin-top: 30px;
+    display: flex;
+    color: #fff;
+}
+.email{
+    width: 400px;
+    height: 57px;
+    border : 1px solid #fff;
+    border-radius: 6px;   
+    background-color: #292828;
+}
+.email ::placeholder{
+    color: #fff;
+}
+.email::placeholder{
+    padding-left: 10px;
+    font-size: 17px;
+}
+.start-box{
+    width: 155px;
+    height: 56px;
+    margin-left: 14px;
+    border: 0px solid red;
+    background-color: red;
+    border-radius: 6px;
+}
+.start-box span{
+    font-size: 25px;
+    padding-left: 20px;
+    position: relative;
+    top: 15px;
+    cursor: pointer;
+}
+.start-box:hover{
+    background-color: rgb(182, 0, 0);
+}
+.container{
+    max-width: 1440px;
+    max-height: 3597px;
+    margin: 0 auto;
+    position: relative;
+    height: auto;
+}
+.box{
+    padding-top: 100px;
+    max-width: 1344px;
+    max-height: 3597px;
+    margin: 0 auto;
+    height: auto;
+}
+.movie{
+    background-color:rgb(3, 3, 55);
+    margin-top: 60px;
+    margin: 0 auto;
+    color: #fff;
+    max-width: 1344px;
+    max-height: 453px;
+    display: flex;
+    flex-direction : row-reverse;
+    justify-content: space-between;
+    padding: 12px 100px;
+}
+.movie-reverse{
+    background-color:rgb(3, 3, 55);
+    padding: 12px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.movie-img{
+    max-width: 50%;
+}
+.movie-text{
+    max-width: 50%;
+    color: #fff;
+    margin-top: 150px;
+}
+.movie-text h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.movie-text p{
+    font-size : 19px;
+}
+.line{
+    background-color:rgb(3, 3, 55);
+    padding: 12px 96px;
+    max-width: 1344;
+    max-height: 25px;
+}
+.line hr{
+    color: beige;
+}
+.line-last{
+    position: absolute;
+}
+.qna-area{
+    max-width: 1344px;
+    max-height: 1006px;
+    padding: 94px 100px;
+    position: relative;
+
+}
+.qna{
+    color: #fff;
+    max-width: 1344px;
+    max-height: 1128px;
+    height: auto;
+}
+.qna-title h1{
+    color: #fff;
+    font-size: 32px;
+}
+.gnb{
+    list-style: none;
+    color: #fff;
+    display: block;
+    padding-left: 0;
+    
+}
+.gnb>li{
+    border-radius: 1px solid rgb(3, 3, 55);
+    background-color: rgb(3, 3, 55);
+    position: relative;    
+    width: 1144px;
+    max-height: 84px;
+    margin-bottom: 20px;
+    padding: 24px;
+    font-size: 20px;
+}
+.gnb>li>a{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 100px;
+
+}
+.lnb{
+  
+    padding-left: 0;
+    list-style: none;
+    display :none;
+    height: 100%;
+}
+.lnb li{
+    width: 100%;
+    background-color:rgb(3, 3, 55);
+    left: -25px;
+    text-align: none;
+    color: #fff;    
+}
+.lnb a{
+    text-decoration: none;
+    color: #fff;
+}
+.qna-lowbox{
+    margin-top: 10px;
+}
+.qna-lowbox p{
+    margin-top: 20px;
+    font-size: 23px;
+}
+.qna-box{
+    height: auto;
+    display: flex;
+    position: inherit;
+}
+footer{
+    position: relative;
+    height: auto;
+    max-width: 1344px;
+    max-height: 1165px;
+    padding: 94px 100px;
+    margin: 0 auto;
+    color: #ddd;
+}
+.call{
+    position: relative;
+}
+.call a{
+   color: #ddd;
+}
+.service-menu{
+    display: flex;
+    margin-top: 45px;
+}
+.service-sub{
+    display: inline-block;
+    width: 25%;
+    cursor: pointer;
+}
+.service-sub p{
+    text-decoration-line: underline;
+}
+.language-select select{
+    margin-top: 45px;
+    background-color: #000;
+    color: #fff;
+    right: 160px;
+    width: 126px;
+    height: 32px;
+    border-radius: 5px;
+}
+.service-row{
+    margin-top: 45px;
+}
+.service-r-row{
+    margin-top: 45px;
+}
+.service-r-row p{
+    padding: auto;
+    margin: auto;
+    font-size: 13px;
+}
+.service-r-row a{
+    color: #fff;
+}
+
+/*************login**************/
+
+.login-main{
+    max-width: 314px;
+    max-height: 600px;
+    background-color: #000;
+    padding: 30px 40px 40px 38px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 40px;
+    opacity: 0.6;
+}
+.login-title{
+    color: #fff;
+}
+.login-title p{
+    font-size: 30px;
+}
+.login-box input{
+    display: block;
+    width: 295px;
+    height: 50px;
+    background-color: #807f7f;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    padding-top: 13px;
+    padding-left: 20px;
+}
+.login-box input::placeholder{
+    color: #fff;
+    font-size: 19px;
+}
+.login-button{
+    width: 314px;
+    height: 50px;
+    color: #fff;
+    background-color: red;
+    margin-top: 30px;
+    
+}
+.login-add{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.login-add-box{
+    display: flex;
+}
+.login-add span{
+    margin-top: 16px;
+}
+.login-add span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.login-info{
+    color: #ddd;
+    margin-top: 20px;
+}
+.login-info p:first-child{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.login-info p{
+    margin: 0px;
+    font-size: 13px;
+}
+.login-info p:first-child :first-child{
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+}
+.login-info a:last-child{
+    text-decoration: none;
+    color: blue;
+    font-size: 14px;
+}
+@media (max-width: 1920px){
+   
+}
+@media (max-width : 1279px) {
+    
+}
+@media (max-width : 1023px) {
+    
+}
+@media (max-width : 983px) {
+    
+
+}
+@media (max-width : 930px) {
+    
+}
+@media (max-width : 600px) {
+    
+}
+@media (max-width : 522px) {
+    
+}

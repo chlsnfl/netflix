@@ -1,0 +1,173 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.language{
+    max-width: 1264px;
+    max-height: 86px;
+    margin: 0 auto;
+    opacity: 100%;
+    padding-top: 30px;
+}
+.language img{
+    position: relative;
+    width: 148px;
+    margin-left: 16px;
+}
+.sel-login{
+    float: right;
+}
+.sel-login select{
+    position: relative;
+    float: right;
+    background-color: #000;
+    color: #fff;
+    right: 160px;
+    width: 126px;
+    height: 32px;
+    border-radius: 5px;
+}
+.sel-login .login{
+    width: 74px;
+    height: 32px;
+    border-radius: 3px;
+    background-color: red;
+    color: #fff;
+    position: absolute;
+}
+.sel-login .login:hover{
+    background-color: rgb(182, 0, 0);
+}
+.login span{
+    cursor: pointer;
+    position: relative;
+    top: 7px;
+    font-size: 17px;
+    padding-left: 16px;
+}
+.login span a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/*******main-member1**********/
+.box{
+    height: auto;
+}
+.main{
+    max-width: 1440px;
+    max-height: 643px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+.main-box{
+    position: relative;
+    max-width: 410px;
+    max-height: 360px;
+    margin: 0 auto;
+}
+.main-imgbox{
+    text-align: center;
+    position: relative;
+}
+.main-imgbox img{
+    width: 260px;
+}
+.main-text{
+    display: block;
+    margin-right: 0;
+    text-align: center;
+}
+.main-text h1{
+    font-weight: 400;
+    width: 100%;
+    font-size: 40px;
+}
+.main-text p{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+}
+.main-next{
+    width: 360px;
+
+}
+.main-next a{
+    width: 360px;
+    margin-top: 35px;
+    display: block;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    font-size: 30px;
+    padding: 10px 25px;
+    text-align: center;
+}
+/*******member2*********/
+.main-text-box{
+   text-align: left;
+}
+/*******footer********/
+
+footer{
+    height: auto;
+    width: 100%;
+
+    border-top: 1px solid #ddd;
+    color: #444;
+    background-color: #ddd;
+    padding: 40px 90px 60px 90px;
+
+}
+.service-infomation{
+    width: 60%;
+    position: absolute;
+}
+.call{
+    position: relative;
+}
+.call a{
+   color: #444;
+}
+.service{
+    width: 50%;
+}
+.service-menu{
+    display: flex;
+    margin-top: 45px;
+}
+.service-sub{
+    display: inline-block;
+    width: 25%;
+    cursor: pointer;
+}
+.service-sub p{
+    text-decoration-line: underline;
+}
+.language-select select{
+    margin-top: 45px;
+    background-color: #fff;
+    color: #000;
+    right: 160px;
+    width: 126px;
+    height: 32px;
+    border-radius: 5px;
+}
+.service-row{
+    margin-top: 45px;
+}
+.service-r-row{
+    margin-top: 45px;
+}
+.service-r-row p{
+    padding: auto;
+    margin: auto;
+    font-size: 13px;
+}
+.service-r-row a{
+    color: #444;
+}
